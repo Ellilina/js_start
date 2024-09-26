@@ -1,23 +1,22 @@
 const userInput1 = prompt('введите число')
-// const userInput2 = +prompt("Введите еще число")
+const userInput2 = prompt("Введите второе число")
 
 // function isPositive(number) {
 //     alert(`Вход ${number}, тип ${typeof number}`)
 
-//     if ((typeof number !== 'numer') || (!number && number !== 0)) {
+    // if ((typeof number !== 'numer') || (!number && number !== 0)) {
 //     return "Введено некорректное число"
 //     }
 
-//     if (number > 0) {
-//         return "ПОложительное"
-//     } else if (number < 0) {
-//         return "Отрицательное"
-//     } else if (number === 0) {
-//         return "Ноль"
-//     } else {
-//         return "Введено некорректное число"
-//     }
-// }
+    // if (number > 0) {
+    //     return "ПОложительное"
+    // } else if (number < 0) {
+    //     return "Отрицательное"
+    // } else if (number === 0) {
+    //     return "Ноль"
+    // } else {
+    //     return "Введено некорректное число"
+    // }
 
 // // function isValidAge(age) {
 //     if(age <= 120 && age >= 0) {
@@ -26,8 +25,20 @@ const userInput1 = prompt('введите число')
 //     return "Возраст не орректный"
 // }
 
-// function getGreater(num1, num2) {
-//     return num1 >= num2 ? num1 : num2
+
+// function isModule(num1) {
+//     let absoluteValue = Math.abs(num1)
+//     console.log(`модуль числа |${num1}| = ${absoluteValue}`)
+// }
+
+// function isBigNumber(num1, num2) {
+// if (num1 > num2) {
+//     console.log('Большое число ' + num1)
+// } else if (num2 > num1) {
+//     console.log('Большое число ' + num2)
+// } else {
+//     console.log('Числа равны')
+// }
 // }
 
 // function isKratno5(number) {
@@ -60,8 +71,7 @@ const userInput1 = prompt('введите число')
 //         return "Будьте внимательнее!"
 // }
 
-function mod(num1, num2) {
-    
-}
+function isMinNumber(num1, num2)
 
-alert(isEarth(userInput1))
+
+console.log(isModule(userInput1))
