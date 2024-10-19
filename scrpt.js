@@ -1,5 +1,5 @@
-const userInput1 = prompt('введите число')
-const userInput2 = prompt("Введите второе число")
+const a = prompt('введите число')
+const b = prompt("Введите второе число")
 
 // function isPositive(number) {
 //     alert(`Вход ${number}, тип ${typeof number}`)
@@ -56,6 +56,18 @@ const userInput2 = prompt("Введите второе число")
 //     return `Привет, ${planet === 'земля' ? 'землянин' : 'иноплонетянин'}!`
 // }
 
+// function getSmallerNumber(num1, num2) {
+//     return num1 < num2 ? num1 : num2;
+// }
+// const smaller = getSmallerNumber(num1, num2)
+
+// function power(base, exponent) {
+//     return base ** exponent;
+// }
+
+// const result = power(number, degree);
+// console.log(`${number} в степени ${degree} равно ${result}`);
+
 // function calculate(num1, num2, operator)
 // switch(operator) {
 //     case '+' :
@@ -71,7 +83,12 @@ const userInput2 = prompt("Введите второе число")
 //         return "Будьте внимательнее!"
 // }
 
-function isMinNumber(num1, num2)
+function mod(a, b) {
+    if (b === 0) {
+        throw new Error("Деление на ноль невозможно");
+    }
+    return a - Math.floor(a / b) * b;
+}
 
 
-console.log(isModule(userInput1))
+console.log(mod(a, b))
